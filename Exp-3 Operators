@@ -89,3 +89,20 @@ int main() {
     }
     return 0;
 }
+
+//Outputs
+
+//Program 1
+//The variable x is: 4
+//The variable y is: -8
+//x is a positive integer.
+//y is a negative integer.
+
+//Program 2
+//Enter the marks out of 100: 99
+//Your grade is A+.
+
+//Program 3
+//Enter the value of x: 4
+//Enter the value of y: -8
+//4th Quadrant.
