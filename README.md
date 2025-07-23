@@ -1,6 +1,6 @@
 # Experiment 3: Operators in C++
 
-## 🧪 Aim
+## Aim
 To study and implement the use of **relational** and **logical operators** in C++ along with conditional statements (`if`, `if-else`, `else-if`) to perform decision-based operations.
 
 ---
