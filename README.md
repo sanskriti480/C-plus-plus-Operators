@@ -1,27 +1,147 @@
-Experiment 3
+# Experiment 3: Operators in C++
 
-Aim - To study and implement Operators in C++.
+## 🧪 Aim
+To study and implement the use of **relational** and **logical operators** in C++ along with conditional statements (`if`, `if-else`, `else-if`) to perform decision-based operations.
 
-Apparatus - VS Code or Programiz online C++ compiler.
+---
 
-Theory - 
+## Tools used
+- Visual Studio Code (VS Code) / Programiz Online C++ Compiler 
 
-Program 1:
-This C++ program checks whether two numbers, x and y, entered by the user are positive or negative. It first asks the user to input values for x and y. Then, using if-else statements, it checks each number: if the
-number is greater than 0, it prints that it is positive; otherwise, it prints that it is negative. This program helps in understanding how to take input and use conditions to check the sign of numbers.
+---
 
-Program 2:
-This C++ program is used to calculate a student's grade based on the marks they enter out of 100. It starts by asking the user to input their marks and stores that value in the variable marks. Then, it uses a
-series of if-else-if conditions to compare the entered marks with different ranges. If the marks are between 90 and 100, the program prints "Your grade is A+." If the marks fall between 80 and 89, it prints "Your
-grade is A," and so on for grades B, C, and D. If the marks are below 50, the program prints "You failed." This program helps understand how decision-making (conditional statements) works in C++. It shows how we
-can use conditions to check specific ranges and give different outputs based on the user's input.
+## Theory
 
-Program 3:
-This C++ program is used to determine the quadrant in which a point lies on the Cartesian coordinate system based on the values of x and y entered by the user. It first asks the user to input values for x 
-(horizontal axis) and y (vertical axis). Then, using if-else conditions, the program checks the sign (positive or negative) of both x and y to identify the correct quadrant:
-1. If both x and y are positive, the point lies in the 1st Quadrant.
-2. If x is negative and y is positive, it's in the 2nd Quadrant.
-3. If both x and y are negative, it's in the 3rd Quadrant.
-4. If x is positive and y is negative, it's in the 4th Quadrant.
+## Why C++ is More Efficient Than C
 
-Conclusion - I used Logical Operators and Relational Operators in the above 3 codes and also used conditional statements (if-else) to execute the codes and get the desired outputs.
+- **Object-Oriented Programming:**  
+  C++ supports classes and objects, making code more modular and reusable compared to the procedural approach in C.
+
+- **Function Overloading and Default Arguments:**  
+  Enhances code flexibility and reduces repetition.
+
+- **Standard Template Library (STL):**  
+  Offers pre-built data structures and algorithms that save time and improve performance.
+
+- **Better Type Checking:**  
+  Reduces the risk of logical errors by catching mismatches at compile time.
+
+- **Memory Management Tools:**  
+  C++ provides `new` and `delete` for controlled memory management, compared to C's `malloc()` and `free()`.
+
+- **Namespaces and Exception Handling:**  
+  Enable better code organization and error control.
+
+
+In C++, **operators** are special symbols used to perform operations on variables and values. This experiment focuses specifically on **relational** and **logical operators**, both of which are essential for implementing decision-making in programs using conditional statements like `if`, `else`, and `else-if`.
+
+### Relational Operators
+Used to compare two values. They return a boolean result (`true` or `false`).
+
+- `==` : Equal to  
+- `!=` : Not equal to  
+- `>`  : Greater than  
+- `<`  : Less than  
+- `>=` : Greater than or equal to  
+- `<=` : Less than or equal to  
+
+### Logical Operators
+Used to combine two or more conditions.
+
+- `&&` : Logical AND  
+- `||` : Logical OR  
+- `!`  : Logical NOT  
+
+### Key Concepts Demonstrated in This Experiment:
+
+- Use of conditional statements to make decisions based on user input.
+- Combining relational and logical operators to form complex conditions.
+- Real-world applications such as:
+  - Determining if a number is positive or negative
+  - Assigning grades based on marks
+  - Finding the quadrant of a point in a coordinate system
+
+---
+
+## Program Descriptions
+
+### Program 1: Check Positive or Negative
+
+This program takes two numbers as input and uses conditional statements to check whether each number is **positive** or **negative**.
+
+#### Concepts Demonstrated:
+- Input using `cin`
+- Use of relational operators (`>`)
+- Use of `if-else` conditions
+- Independent evaluation of multiple variables
+
+#### Use Case:
+Ideal for understanding **comparison** logic and output based on individual conditions.
+
+---
+
+### Program 2: Student Grading System
+
+This program asks the user to enter marks out of 100 and displays a grade based on predefined ranges using `if-else-if` ladder.
+
+#### Grading Criteria:
+- 90 to 100: Grade A+  
+- 80 to 89: Grade A  
+- 70 to 79: Grade B  
+- 60 to 69: Grade C  
+- 50 to 59: Grade D  
+- Below 50: Fail  
+
+#### Concepts Demonstrated:
+- Range checking using relational operators
+- Use of logical operators for combining ranges
+- Use of `else-if` ladder for multi-branch decisions
+
+---
+
+### Program 3: Quadrant Checker
+
+This program takes x and y coordinates as input and determines the quadrant in which the point lies on the Cartesian plane.
+
+#### Quadrant Rules:
+- x > 0 and y > 0 → Quadrant I  
+- x < 0 and y > 0 → Quadrant II  
+- x < 0 and y < 0 → Quadrant III  
+- x > 0 and y < 0 → Quadrant IV  
+
+#### Concepts Demonstrated:
+- Logical `AND` operator (`&&`)
+- Relational conditions on multiple variables
+- Conditional branching using `if-else-if`
+
+---
+
+Sample output
+
+Program 1
+The variable x is: 4
+The variable y is: -8
+x is a positive integer.
+y is a negative integer.
+
+Program 2
+Enter the marks out of 100: 99
+Your grade is A+.
+
+Program 3
+Enter the value of x: 4
+Enter the value of y: -8
+4th Quadrant.
+
+## Conclusion
+
+In this experiment, we successfully:
+
+- Applied relational and logical operators in practical C++ programs.
+- Implemented conditional logic using `if`, `else`, and `else-if` statements.
+- Developed real-life logic scenarios (grades, sign check, quadrant determination).
+- Strengthened our understanding of operator precedence and condition evaluation.
+
+This experiment is essential for mastering decision control statements and logical condition building in C++.
+
+---
