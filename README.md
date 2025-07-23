@@ -116,7 +116,7 @@ This program takes x and y coordinates as input and determines the quadrant in w
 
 ---
 
-Sample output
+### Sample output
 
 Program 1
 The variable x is: 4
