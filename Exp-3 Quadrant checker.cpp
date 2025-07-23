@@ -30,7 +30,6 @@ int main() {
 
 //Output
 
-//Program 3
 //Enter the value of x: 4
 //Enter the value of y: -8
 //4th Quadrant.
